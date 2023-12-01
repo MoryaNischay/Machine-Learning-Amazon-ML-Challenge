@@ -20,11 +20,12 @@ Then we concatenated all the text features (Product Title, Description, Bullet P
 The data was highly positively skewed, so we took the logarithm of the target values (Product Length) to fix skewness and bring it to a Gaussian shape.
 We clipped the logarithm of the target values at 12 to remove outliers. <h4/>
 
-![plot1](https://github.com/MoryaNischay/Machine-Learning-Amazon-ML-Challenge/blob/main/images/before.png)
 <h3> Data before preprocessing (Positive Skew)<h3/> 
+![plot1](https://github.com/MoryaNischay/Machine-Learning-Amazon-ML-Challenge/blob/main/images/before.png)
 
-![plot2](https://github.com/MoryaNischay/Machine-Learning-Amazon-ML-Challenge/blob/main/images/after.png)
 <h3> Data after preprocessing (Gaussian)<h3/> 
+![plot2](https://github.com/MoryaNischay/Machine-Learning-Amazon-ML-Challenge/blob/main/images/after.png)
+
 <h3> Word2vec:-<h3/> 
 <h4>Using word to vec we represent every word as a vector dimension 100 as it is a good middle ground and helps us find general relations between words without costing us much computing power.
 We use the ‘workers’ parameter to make use of multiple cores in our CPU for faster computation 
