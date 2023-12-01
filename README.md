@@ -57,21 +57,6 @@ Data Columns:-
 
 <h2>Data Sample:-<h2/>
 
-<h2>Experimental results:<h2/>
-ANN Results:- 
-1st Dataset
-
-2nd Dataset 
-
-Linear Regression Results:-
-1st Dataset
-
-2nd Dataset 
-
-
-
-
-
 
 
 <h2>Final Results:-<h2/>
